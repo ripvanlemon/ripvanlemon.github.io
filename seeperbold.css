@@ -1,0 +1,19 @@
+body {
+  background-color: #dcd2c0;
+}
+.main-body {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}
+.img-container {
+  max-width: 80vh;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
